@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+</head>
+<body>
+    <div class="left-container">
+        <img src="leaf.jpg" alt="Leaf Image">
+    </div>
+
+    <main>
+        <div class="description">
+            <p>This is not a real online service! You know you need something like this in yoyur life to help you realize your deepest dreams. <br> Sign up now to get started.</p>
+            <p>You know you want to.</p>
+        </div>
+
+        <form action="httpbin.org" method="post">
+            <fieldset>
+                <legend>Let's do this!</legend>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name">
+
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="example@example.com">
+                
+                <label for="phone-number">Phone Number</label>
+                <input type="number" id="phone-number" name="phone-number">
+               
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+                
+                <label for="password-confirm">Confirm Password</label>
+                <input type="password" id="password-confirm" name="password-confirm">
+            </fieldset>
+            <button type="submit">Create Account</button>
+        </form>
+
+        <p>Already have an account?</p>
+    </main>
+</body>
+</html>
