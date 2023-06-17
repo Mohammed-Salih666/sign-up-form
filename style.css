@@ -73,9 +73,12 @@ main > div > * {
     width: 80%;
     font-size: var(--main-text-size);
     font-weight: bold;
-    transform: translateY(20%);
 }
 
+.description > p {
+    position: relative;
+    top: 20%;
+}
 
 .form {
     flex: 40%;
@@ -98,8 +101,7 @@ legend {
     width: 75%;
     display: grid;
     grid-template-columns: auto auto;
-    row-gap: 20%;
-    column-gap: 10%;
+    row-gap: 7%;
 }
 
 label {
